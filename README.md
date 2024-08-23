@@ -175,7 +175,7 @@ Next, I developed the [`LTSFTransformerNetwork`](https://github.com/sktime/sktim
 
 Throughout this implementation, I gained valuable insights into transformer architecture, particularly in applying various embeddings and encodings to temporal features in time series data.
 
-The estimator can be integrated into sktime with the following code:
+The estimator can be loaded into sktime with the following code:
 
 ```python
 from sktime.forecasting.ltsf import LTSFTransformerForecaster
