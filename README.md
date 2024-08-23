@@ -79,7 +79,7 @@ Issue Opened by Me
 
 ## Walk Through
 
-### TransformerClassifier
+### MVTSTransformerClassifier
 
 - **Title:** [ENH] Pytorch Classifier & de-novo implementation of Transformer
 - **Status:** Merged
@@ -88,6 +88,22 @@ Issue Opened by Me
 - **Research Paper**: [A Transformer-based Framework for Multivariate Time Series Representation Learning](https://dl.acm.org/doi/abs/10.1145/3447548.3467401)
 - **Official Code**: [gzerveas/mvts_transformer](https://github.com/gzerveas/mvts_transformer)
 - **Sktime Source Code**: [sktime/classification/deep_learning/mvts_transformer.py](https://github.com/sktime/sktime/blob/main/sktime/classification/deep_learning/mvts_transformer.py)
+
+```py
+from sktime.classification.deep_learning import MVTSTransformerClassifier
+
+model = MVTSTransformerClassifier(
+    d_model=256,
+    n_heads=4,
+    num_layers=4,
+    dim_feedforward=128,
+    dropout=0.1,
+    pos_encoding="fixed",
+    activation="relu",
+    norm="BatchNorm",
+    freeze=False,
+)
+```
 
 ### TinyTimeMixer
 
@@ -99,6 +115,22 @@ Issue Opened by Me
 - **Official Code**: [ibm-granite/granite-tsfm](https://github.com/ibm-granite/granite-tsfm)
 - **Sktime Source Code**: [sktime/forecasting/ttm.py](https://github.com/sktime/sktime/blob/main/sktime/forecasting/ttm.py)
 
+```py
+from sktime.forecasting.ttm import TinyTimeMixerForecaster
+
+model = TinyTimeMixerForecaster(
+	model_path="ibm/TTM",
+	revision="main",
+	validation_split=0.2,
+	config=None,
+	training_args=None,
+	compute_metrics=None,
+	callbacks=None,
+	broadcasting=False,
+	use_source_package=False,
+)
+```
+
 ### LTSFTransformer
 
 - **Title:** [ENH] de-novo implementation of LTSFTransformer based on cure-lab research code base
@@ -109,6 +141,37 @@ Issue Opened by Me
 - **Official Code**: [cure-lab/LTSF-Linear](https://github.com/cure-lab/LTSF-Linear)
 - **Sktime Source Code**: [sktime/forecasting/ltsf.py](https://github.com/sktime/sktime/blob/main/sktime/forecasting/ltsf.py)
 
+```py
+from sktime.forecasting.ltsf import LTSFTransformerForecaster
+
+model = LTSFTransformerForecaster(
+	seq_len=30,
+	context_len=15,
+	pred_len=15,
+    num_epochs=50,
+    batch_size=8,
+    in_channels=1,
+    individual=False,
+    criterion=None,
+    criterion_kwargs=None,
+    optimizer=None,
+    optimizer_kwargs=None,
+    lr=0.002,
+    position_encoding=True,
+    temporal_encoding=True,
+    temporal_encoding_type="embed",  # linear, embed, fixed-embed
+    d_model=32,
+    n_heads=1,
+    d_ff=64,
+    e_layers=1,
+    d_layers=1,
+    factor=1,
+    dropout=0.1,
+    activation="relu",
+    freq="M",
+)
+```
+
 ### TimesFM
 
 - **Title:** [ENH] interface to TimesFM Forecaster
@@ -118,6 +181,15 @@ Issue Opened by Me
 - **Research Paper**: [A decoder-only foundation model for time-series forecasting](https://arxiv.org/abs/2310.10688)
 - **Official Code**: [google-research/timesfm](https://github.com/google-research/timesfm)
 
+```py
+from sktime.forecasting.timesfm_forecaster import TimesFMForecaster
+
+forecaster = TimesFMForecaster(
+    context_len=64,
+    horizon_len=32,
+)
+```
+
 ### PEFT for HFTransformersForecaster
 
 - **Title:** [ENH] Extend HFTransformersForecaster for PEFT methods
@@ -125,12 +197,33 @@ Issue Opened by Me
 - **Pull Request:** [#6457](https://github.com/sktime/sktime/pull/6457)
 - **Related Issue:** [#6435](https://github.com/sktime/sktime/issues/6435)
 
-### GlobalForecasting for Pytorch Models
+```py
+from sktime.forecasting.hf_transformers_forecaster import HFTransformersForecaster
+from peft import LoraConfig
 
-- **Title:** [ENH] Global Forecast API for BaseDeepNetworkPyTorch based interfaces
-- **Status:** Draft
-- **Pull Request:** [#6928](https://github.com/sktime/sktime/pull/6928)
-- **Related Issue:** [#6836](https://github.com/sktime/sktime/issues/6836)
+forecaster = HFTransformersForecaster(
+	model_path="huggingface/autoformer-tourism-monthly",
+	fit_strategy="peft",
+	training_args={
+		"num_train_epochs": 20,
+		"output_dir": "test_output",
+		"per_device_train_batch_size": 32,
+	},
+	config={
+			"lags_sequence": [1, 2, 3],
+			"context_length": 2,
+			"prediction_length": 4,
+			"use_cpu": True,
+			"label_length": 2,
+	},
+	peft_config=LoraConfig(
+		r=8,
+		lora_alpha=32,
+		target_modules=["q_proj", "v_proj"],
+		lora_dropout=0.01,
+	)
+)
+```
 
 ### AutoregressiveWrapper
 
@@ -139,5 +232,25 @@ Issue Opened by Me
 - **Pull Request:** [#6842](https://github.com/sktime/sktime/pull/6842)
 - **Related Issue:** [#6802](https://github.com/sktime/sktime/issues/6802)
 
+```py
+from sktime.forecasting.pytorchforecasting import PytorchForecastingNBeats
+from sktime.forecasting.compose import AutoRegressiveWrapper
+
+forecaster = PytorchForecastingNBeats(trainer_params={
+    "max_epochs": 20,
+})
+wrapper = AutoRegressiveWrapper(
+    forecaster=forecaster,
+    horizon_length=5,
+    aggregate_method=np.mean,
+)
+```
+
+### GlobalForecasting for Pytorch Models
+
+- **Title:** [ENH] Global Forecast API for BaseDeepNetworkPyTorch based interfaces
+- **Status:** Draft
+- **Pull Request:** [#6928](https://github.com/sktime/sktime/pull/6928)
+- **Related Issue:** [#6836](https://github.com/sktime/sktime/issues/6836)
 
 # Achnowledgements
