@@ -1,8 +1,7 @@
 
 <img src="assets/gsoc-sktime-banner.png" alt="Typing SVG" width="100%">
 
-<hr/>
-
+# Project Information
 
 | **Attribute**     | **Details**                                               |
 |:-------------------:|:-----------------------------------------------------------:|
