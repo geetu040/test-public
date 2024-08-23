@@ -1,7 +1,8 @@
 <img src="assets/gsoc-sktime-banner.png" alt="Typing SVG" width="100%">
 <hr>
 
-# Project Information
+# About Project
+
 |   |   |
 |---|---|
 | **Program**     | **Google Summer of Code, 2024**                                               |
@@ -9,4 +10,22 @@
 | **Project** | Sktime integration with deep learning backends - pytorch and huggingface - [Dashboard](https://summerofcode.withgoogle.com/programs/2024/projects/f5FggiB7) |
 | **Mentors**       | [Franz Király](https://github.com/fkiraly) - [Benedikt Heidrich](https://github.com/benHeid) - [Anirban Ray](https://github.com/yarnabrina)                                           |
 | **Project Length**        | 350 hours                                                 |
+
+## Overview
+
+TODO: tell some about opportunity, sktime and gsoc and this submission
+
+## Topics
+
+`Data Science` - `AI` - `Time Series` - `Toolbox Frameworks` - `Machine Learning` - `Deep Learning`
+
+## Technologies
+
+`Python` - `Github` - `Pytorch` - `Huggingface` - `Scikit-Learn`
+
+## Outcomes
+
+# Pull Requests
+
+# Contributions
 
