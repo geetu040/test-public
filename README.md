@@ -11,19 +11,19 @@
 | **Mentors**       | [Franz Király](https://github.com/fkiraly) - [Benedikt Heidrich](https://github.com/benHeid) - [Anirban Ray](https://github.com/yarnabrina)                                           |
 | **Project Length**        | 350 hours                                                 |
 
-## Overview
+### Overview
 
 TODO: tell some about opportunity, sktime and gsoc and this submission
 
-## Topics
+### Topics
 
 `Data Science` - `AI` - `Time Series` - `Toolbox Frameworks` - `Machine Learning` - `Deep Learning`
 
-## Technologies
+### Technologies
 
 `Python` - `Github` - `Pytorch` - `Huggingface` - `Scikit-Learn`
 
-## Outcomes
+### Outcomes
 
 # Pull Requests
 
