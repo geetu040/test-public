@@ -44,8 +44,9 @@ Major Contributions
 
 Side Work
 
-| Pull Request | Status | Title | Related Issue |
+|||||
 |-----------|--------|----------|---------------|
+| **Pull Request** | **Status** | **Title** | **Related Issue** |
 | [#7009](https://github.com/sktime/sktime/pull/7009) | Open | [ENH] Improve documentation for TinyTimeMixer | |
 | [#6965](https://github.com/sktime/sktime/pull/6965) | Merged | [BUG] TinyTimeMixerForecaster: fix truncating index and update test_params  | |
 | [#6929](https://github.com/sktime/sktime/pull/6929) | Merged | [ENH] improve test_global_forecasting_tag | |
@@ -57,8 +58,9 @@ Side Work
 
 Pre-GSoC
 
-| Pull Request | Status | Title | Related Issue |
+|||||
 |-----------|--------|----------|---------------|
+| **Pull Request** | **Status** | **Title** | **Related Issue** |
 | [#6121](https://github.com/sktime/sktime/pull/6121) | Merged | [MNT] initialize change cycle (0.28.0) for renaming cINNForecaster to CINNForecaster | [#6120](https://github.com/sktime/sktime/issues/6120) |
 | [#6039](https://github.com/sktime/sktime/pull/6039) | Merged | [ENH] NeuralForecastRNN should auto-detect freq | |
 | [#6088](https://github.com/sktime/sktime/pull/6088) | Merged | [MNT] create build tool to check invalid backticks | |
@@ -68,8 +70,9 @@ Pre-GSoC
 
 Issue Opened by Me
 
-| Issue | Status | Title |
+||||
 |-----------|--------|----------|
+| **Issue** | **Status** | **Title** |
 | [#6828](https://github.com/sktime/sktime/issues/6828) | Open | [ENH] time series classifiers: encode or coerce y at base class level |
 | [#6790](https://github.com/sktime/sktime/issues/6790) | Open | [ENH] improve sktime/networks folder structure |
 | [#6158](https://github.com/sktime/sktime/issues/6158) | Open | [ENH] cINNForecaster needs some informative error handling and improved documentation |
