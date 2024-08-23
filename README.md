@@ -41,6 +41,8 @@ Major Contributions
 | [#6712](https://github.com/sktime/sktime/pull/6712) | Merged | [ENH] Interface to TinyTimeMixer foundation model | [#6698](https://github.com/sktime/sktime/issues/6698)|
 | [#6202](https://github.com/sktime/sktime/pull/6202) | Merged | [ENH] de-novo implementation of LTSFTransformer based on cure-lab research code base |[#4939](https://github.com/sktime/sktime/issues/4939) |
 | [#6457](https://github.com/sktime/sktime/pull/6457) | Merged | [ENH] Extend HFTransformersForecaster for PEFT methods | [#6435](https://github.com/sktime/sktime/issues/6435) |
+| [#6321](https://github.com/sktime/sktime/pull/6321) | Merged | [BUG] fixes failing test in neuralforecast auto freq, amid pandas freq deprecations | |
+| [#6237](https://github.com/sktime/sktime/pull/6237) | Merged | [ENH] Update doc and behavior of freq="auto" in neuralforecast | |
 
 Side Work
 
@@ -51,10 +53,8 @@ Side Work
 | [#6965](https://github.com/sktime/sktime/pull/6965) | Merged | [BUG] TinyTimeMixerForecaster: fix truncating index and update test_params  | |
 | [#6929](https://github.com/sktime/sktime/pull/6929) | Merged | [ENH] improve test_global_forecasting_tag | |
 | [#6853](https://github.com/sktime/sktime/pull/6853) | Merged | [MNT] downgrade pykan version to <0.2.2 | |
-| [#6321](https://github.com/sktime/sktime/pull/6321) | Merged | [BUG] fixes failing test in neuralforecast auto freq, amid pandas freq deprecations | |
 | [#6367](https://github.com/sktime/sktime/pull/6367)| Merged | [MNT] final change cycle (0.30.0) for renaming cINNForecaster to CINNForecaster |[#6120](https://github.com/sktime/sktime/issues/6120) |
 | [#6238](https://github.com/sktime/sktime/pull/6238) | Merged | [MNT] change cycle (0.29.0) for renaming cINNForecaster to CINNForecaster | [#6120](https://github.com/sktime/sktime/issues/6120) |
-| [#6237](https://github.com/sktime/sktime/pull/6237) | Merged | [ENH] Update doc and behavior of freq="auto" in neuralforecast | |
 
 Pre-GSoC
 
