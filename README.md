@@ -29,7 +29,7 @@ TODO: tell some about opportunity, sktime and gsoc and this submission
 
 ## Pull Requests
 
-Major Contributions
+
 
 |                                                     |            |                                                                                      |                                                       |
 | --------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------- |
@@ -43,6 +43,8 @@ Major Contributions
 | [#6457](https://github.com/sktime/sktime/pull/6457) | Merged     | [ENH] Extend HFTransformersForecaster for PEFT methods                               | [#6435](https://github.com/sktime/sktime/issues/6435) |
 | [#6321](https://github.com/sktime/sktime/pull/6321) | Merged     | [BUG] fixes failing test in neuralforecast auto freq, amid pandas freq deprecations  |                                                       |
 | [#6237](https://github.com/sktime/sktime/pull/6237) | Merged     | [ENH] Update doc and behavior of freq="auto" in neuralforecast                       |                                                       |
+| [#6367](https://github.com/sktime/sktime/pull/6367) | Merged     | [MNT] final change cycle (0.30.0) for renaming cINNForecaster to CINNForecaster | [#6120](https://github.com/sktime/sktime/issues/6120) |
+| [#6238](https://github.com/sktime/sktime/pull/6238) | Merged     | [MNT] change cycle (0.29.0) for renaming cINNForecaster to CINNForecaster       | [#6120](https://github.com/sktime/sktime/issues/6120) |
 
 Side Work
 
@@ -53,8 +55,6 @@ Side Work
 | [#6965](https://github.com/sktime/sktime/pull/6965) | Merged     | [BUG] TinyTimeMixerForecaster: fix truncating index and update test_params      |                                                       |
 | [#6929](https://github.com/sktime/sktime/pull/6929) | Merged     | [ENH] improve test_global_forecasting_tag                                       |                                                       |
 | [#6853](https://github.com/sktime/sktime/pull/6853) | Merged     | [MNT] downgrade pykan version to <0.2.2                                         |                                                       |
-| [#6367](https://github.com/sktime/sktime/pull/6367) | Merged     | [MNT] final change cycle (0.30.0) for renaming cINNForecaster to CINNForecaster | [#6120](https://github.com/sktime/sktime/issues/6120) |
-| [#6238](https://github.com/sktime/sktime/pull/6238) | Merged     | [MNT] change cycle (0.29.0) for renaming cINNForecaster to CINNForecaster       | [#6120](https://github.com/sktime/sktime/issues/6120) |
 
 Pre-GSoC
 
@@ -91,11 +91,11 @@ Issue Opened by Me
 
 This pull request introduces the `MVTSTransformerClassifier`, an implementation based on the paper "A Transformer-based Framework for Multivariate Time Series Representation Learning." The paper demonstrates how the MVTS (Multi-Variate Time Series) Transformer can be applied to classification and regression tasks.
 
-In this PR, I implemented the [`BaseDeepClassifierPytorch`](https://github.com/sktime/sktime/pull/6791/files#diff-bbe6571ca91b7ba8297d9c19de41b7a86f201533bac9d307ea3a99781726841c) class, which serves as a foundation for building PyTorch-based deep neural networks for classification.
+In this PR, I implemented the [BaseDeepClassifierPytorch](https://github.com/sktime/sktime/pull/6791/files#diff-bbe6571ca91b7ba8297d9c19de41b7a86f201533bac9d307ea3a99781726841c) class, which serves as a foundation for building PyTorch-based deep neural networks for classification.
 
-Next, I utilized the [`TSTransformerEncoderClassiregressor`](https://github.com/sktime/sktime/pull/6791/files#diff-8eef014681dea4cdf5c555aadf8e08ab1535f57de6b332ed7fa0e972272a609a) class, inspired by the mentioned research paper, to construct the PyTorch network.
+Next, I utilized the [TSTransformerEncoderClassiregressor](https://github.com/sktime/sktime/pull/6791/files#diff-8eef014681dea4cdf5c555aadf8e08ab1535f57de6b332ed7fa0e972272a609a) class, inspired by the mentioned research paper, to construct the PyTorch network.
 
-Finally, I developed the [`MVTSTransformerClassifier`](https://github.com/sktime/sktime/pull/6791/files#diff-44b50f069a3c5c1dbf87bec02ac01fc5658391a07590f4bccf92cf6a2b5ec214) class, which connects the network class with the PyTorch base class, completing the estimator.
+Finally, I developed the [MVTSTransformerClassifier](https://github.com/sktime/sktime/pull/6791/files#diff-44b50f069a3c5c1dbf87bec02ac01fc5658391a07590f4bccf92cf6a2b5ec214) class, which connects the network class with the PyTorch base class, completing the estimator.
 
 Throughout this process, I deepened my understanding of transformer architecture.
 
@@ -133,7 +133,7 @@ TinyTimeMixer (TTM) is a compact, pre-trained model for time-series forecasting,
 
 In this PR, I integrated TTM into the sktime framework by forking the official code into the [sktime/libs/granite_ttm](https://github.com/sktime/sktime/pull/6712/files#diff-b3059a73c53cb90d9ba1a01f34ded57098aa285d85d170320011e39474fc4ca9) directory, as the source package was not available on PyPI.
 
-Next, I developed an interface for the estimator within the [`TinyTimeMixerForecaster`](https://github.com/sktime/sktime/pull/6712/files#diff-0a25dac16832f47a85e6d03327d4270510efa529cf0e42e1fc71786dde192711) class.
+Next, I developed an interface for the estimator within the [TinyTimeMixerForecaster](https://github.com/sktime/sktime/pull/6712/files#diff-0a25dac16832f47a85e6d03327d4270510efa529cf0e42e1fc71786dde192711) class.
 
 Throughout this implementation, I gained valuable experience in creating custom Hugging Face models and configurations, loading and modifying weights, altering architecture, and training newly initialized weights.
 
@@ -171,7 +171,7 @@ This pull request introduces the `LTSFTransformer`, an implementation based on t
 
 To begin the implementation, I structured the transformer architecture in the [sktime/networks/ltsf/layers](https://github.com/sktime/sktime/pull/6202/files#diff-0a18272d47c22fc6c495216fa5c757ee77153b9ddbc04daa00895a00ffa472a1) directory, along with the PyTorch dataset class [PytorchFormerDataset](https://github.com/sktime/sktime/pull/6202/files#diff-af8d474dbf509d241fd02bcc6071c7758ca194d93d3a9f1e3f25ebc8db1809ec).
 
-Next, I developed the [`LTSFTransformerNetwork`](https://github.com/sktime/sktime/pull/6202/files#diff-598a15fdb2a333630aad06167788a7f9ec31eb46d4aae59687b0be38c872a7eb) interface class by leveraging the base PyTorch forecasting class, which connects to the network created in the previous step.
+Next, I developed the [LTSFTransformerNetwork](https://github.com/sktime/sktime/pull/6202/files#diff-598a15fdb2a333630aad06167788a7f9ec31eb46d4aae59687b0be38c872a7eb) interface class by leveraging the base PyTorch forecasting class, which connects to the network created in the previous step.
 
 Throughout this implementation, I gained valuable insights into transformer architecture, particularly in applying various embeddings and encodings to temporal features in time series data.
 
@@ -223,7 +223,7 @@ TimesFM (Time Series Foundation Model) is a pre-trained model developed by Googl
 
 While integrating this model into sktime, I encountered new libraries and packages. Due to dependency conflicts with the package available on PyPI, I forked the code to [sktime/libs/timesfm](https://github.com/sktime/sktime/pull/6571/files#diff-b64af953ed44337ca037cf681922b13563eff8208ea0fee96518d4f8b7d114b0).
 
-I then created an interface for the model within the [`TimesFMForecaster`](https://github.com/sktime/sktime/pull/6571/files#diff-862938919a3ce54a64d3ff4f207d897e90e1d729b6c6cd52f2d9cfd9377808cc) class.
+I then created an interface for the model within the [TimesFMForecaster](https://github.com/sktime/sktime/pull/6571/files#diff-862938919a3ce54a64d3ff4f207d897e90e1d729b6c6cd52f2d9cfd9377808cc) class.
 
 Throughout this implementation, I gained hands-on experience with foundation models and explored their capabilities.
 
