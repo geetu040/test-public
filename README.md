@@ -1,4 +1,4 @@
-<img src="assets/gsoc-sktime-banner.png" alt="Typing SVG" width="100%">
+<img src="assets/gsoc-sktime-banner.png" alt="Google Summer of Code 2024 - Sktime Project Banner" width="100%">
 <hr>
 
 # About Project
@@ -16,7 +16,7 @@ I worked with sktime as a Google Summer of Code student during the period late M
 
 Sktime is a library for time series analysis in Python. It provides a unified interface for multiple time series learning tasks like classification, regression, clustering, annotation, and forecasting.
 
-My project was focused on implementing and interfacing deep learning models in sktime based on pytorch and huggingface.
+My project was focused on implementing and interfacing deep learning models in sktime leveraging PyTorch and Hugging Face.
 
 ### Topics
 
@@ -24,7 +24,7 @@ My project was focused on implementing and interfacing deep learning models in s
 
 ### Technologies
 
-`Python` - `Github` - `Pytorch` - `Huggingface` - `Scikit-Learn`
+`Python` - `GitHub` - `Pytorch` - `Huggingface` - `Scikit-Learn`
 
 ### Outcomes
 
@@ -93,15 +93,11 @@ To see the working and inference of these estimators, please refer to [code.ipyn
 - **Official Code:** [gzerveas/mvts_transformer](https://github.com/gzerveas/mvts_transformer)
 - **Sktime Source Code:** [sktime/classification/deep_learning/mvts_transformer.py](https://github.com/sktime/sktime/blob/main/sktime/classification/deep_learning/mvts_transformer.py)
 
-This pull request introduces the `MVTSTransformerClassifier`, an implementation based on the paper "A Transformer-based Framework for Multivariate Time Series Representation Learning." The paper demonstrates how the MVTS (Multi-Variate Time Series) Transformer can be applied to classification and regression tasks.
+This pull request introduces the `MVTSTransformerClassifier`, based on the paper "A Transformer-based Framework for Multivariate Time Series Representation Learning," applying it to classification and regression.
 
-In this PR, I implemented the [BaseDeepClassifierPytorch](https://github.com/sktime/sktime/pull/6791/files#diff-bbe6571ca91b7ba8297d9c19de41b7a86f201533bac9d307ea3a99781726841c) class, which serves as a foundation for building PyTorch-based deep neural networks for classification.
+I implemented the [BaseDeepClassifierPytorch](https://github.com/sktime/sktime/pull/6791/files#diff-bbe6571ca91b7ba8297d9c19de41b7a86f201533bac9d307ea3a99781726841c) class as a foundation for PyTorch-based classifiers. Then, I used the [TSTransformerEncoderClassiregressor](https://github.com/sktime/sktime/pull/6791/files#diff-8eef014681dea4cdf5c555aadf8e08ab1535f57de6b332ed7fa0e972272a609a) to build the PyTorch network. Finally, I created the [MVTSTransformerClassifier](https://github.com/sktime/sktime/pull/6791/files#diff-44b50f069a3c5c1dbf87bec02ac01fc5658391a07590f4bccf92cf6a2b5ec214) class to integrate the network with the base class.
 
-Next, I utilized the [TSTransformerEncoderClassiregressor](https://github.com/sktime/sktime/pull/6791/files#diff-8eef014681dea4cdf5c555aadf8e08ab1535f57de6b332ed7fa0e972272a609a) class, inspired by the mentioned research paper, to construct the PyTorch network.
-
-Finally, I developed the [MVTSTransformerClassifier](https://github.com/sktime/sktime/pull/6791/files#diff-44b50f069a3c5c1dbf87bec02ac01fc5658391a07590f4bccf92cf6a2b5ec214) class, which connects the network class with the PyTorch base class, completing the estimator.
-
-Throughout this process, I deepened my understanding of transformer architecture.
+This process enhanced my understanding of transformer architecture.
 
 The estimator can be loaded into sktime using the following code:
 
