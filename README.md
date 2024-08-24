@@ -29,16 +29,8 @@ TODO: tell some about opportunity, sktime and gsoc and this submission
 
 ## Pull Requests
 
-| Header 1  | Header 2  | Header 3  |
-|:----------|:----------|:----------|
-| Data DataDataDataDataDataDataDataDataData 1    | Data 2    | Data 3    |
-| Data DataDataDataDataDataDataDataDataData 4    | Data 5    | Data 6    |
-
-
-
-|                                                     |            |                                                                                      |                                                       |
-| --------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------- |
 | **Pull Request**                                    | **Status** | **Title**                                                                            | **Related Issue**                                     |
+| :--------------------------------------------------- | :---------- | :------------------------------------------------------------------------------------ | ----------------------------------------------------- |
 | [#6928](https://github.com/sktime/sktime/pull/6928) | Draft      | [ENH] Global Forecast API for BaseDeepNetworkPyTorch based interfaces                | [#6836](https://github.com/sktime/sktime/issues/6836) |
 | [#6842](https://github.com/sktime/sktime/pull/6842) | Open       | [ENH] Implements Autoregressive Wrapper                                              | [#6802](https://github.com/sktime/sktime/issues/6802) |
 | [#6571](https://github.com/sktime/sktime/pull/6571) | Open       | [ENH] interface to TimesFM Forecaster                                                | [#6408](https://github.com/sktime/sktime/issues/6408) |
