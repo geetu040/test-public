@@ -12,7 +12,11 @@
 
 ### Overview
 
-TODO: tell some about opportunity, sktime and gsoc and this submission
+I worked with sktime as a Google Summer of Code student during the period late May to August 2024. This post is created to summarise the work I’ve done over this period as the work product submission required to be submitted at the end of GSoC.
+
+Sktime is a library for time series analysis in Python. It provides a unified interface for multiple time series learning tasks like classification, regression, clustering, annotation, and forecasting.
+
+My project was focused on implementing and interfacing deep learning models in sktime based on pytorch and huggingface.
 
 ### Topics
 
@@ -23,6 +27,24 @@ TODO: tell some about opportunity, sktime and gsoc and this submission
 `Python` - `Github` - `Pytorch` - `Huggingface` - `Scikit-Learn`
 
 ### Outcomes
+
+- Enhanced skills in PyTorch and Hugging Face.
+- Improved Python coding practices, focusing on writing efficient, high-quality code.
+- Gained experience in test-driven development and designing optimal code solutions.
+- Acquired knowledge of machine learning and deep learning techniques for time-series data analysis.
+- Familiarized with time-series-related libraries and packages.
+- Gained insights into the life cycle, development, and maintenance of a Python package through hands-on experience with sktime.
+- Enhanced experience in open-source project contributions.
+- Strengthened Git and GitHub skills.
+- Improved communication with mentors and collaboration on complex design decisions.
+
+### Challenges
+
+- Initially, managing time was challenging, as it was my first experience working on a project of this scale.
+- Maintaining consistency with daily stand-ups and weekly mentoring sessions was difficult at first.
+- Understanding and making changes to a large, complex codebase was particularly tough.
+- I had to dive deeper into certain libraries to implement features effectively, requiring more in-depth knowledge than I initially had.
+- I discovered that designing solutions was more challenging than implementing them, leading me to focus more on efficient design strategies before execution.
 
 # Contributions
 
@@ -44,7 +66,7 @@ These contributions primarily involve the implementation of new algorithms and t
 | [#6367](https://github.com/sktime/sktime/pull/6367) | Merged     | [MNT] final change cycle (0.30.0) for renaming cINNForecaster to CINNForecaster      | [#6120](https://github.com/sktime/sktime/issues/6120) |
 | [#6238](https://github.com/sktime/sktime/pull/6238) | Merged     | [MNT] change cycle (0.29.0) for renaming cINNForecaster to CINNForecaster            | [#6120](https://github.com/sktime/sktime/issues/6120) |
 
-Pull Requests completed before the GSoC proposal submission.
+In addition to this, these PRs were submitted during the application review period.
 
 | **Pull Request**                                    | **Status** | **Title**                                                                            | **Related Issue**                                     |
 | :-------------------------------------------------- | :--------- | :----------------------------------------------------------------------------------- | ----------------------------------------------------- |
@@ -56,6 +78,10 @@ Pull Requests completed before the GSoC proposal submission.
 | [#6059](https://github.com/sktime/sktime/pull/6059) | Merged     | [ENH] Examples for YtoX transformer docstring                                        |                                                       |
 
 ## Walk Through
+
+Here, I will walk through some of the major contributions, from the above pull requests, where I added estimators to sktime.
+
+To see the working and inference of these estimators, please refer to [code.ipynb](./code.ipynb).
 
 ### MVTSTransformerClassifier
 
@@ -302,4 +328,15 @@ This PR enhances the `BaseDeepNetworkPyTorch` class to support global forecastin
 
 Although still a work in progress, once merged, these models can be loaded and trained on hierarchical data, similar to other global forecasters in the sktime framework.
 
+## Future Work
+
+Some relevant future work:
+- There is a list of foundation models, expected to be integrated in sktime - [#6177](https://github.com/sktime/sktime/issues/6177)
+- Some estimators are required to be extended for global forecasting interface - [#6836](https://github.com/sktime/sktime/issues/6836)
+- Enhancements are expected around the pytorch adapter for forecasting - [#6641](https://github.com/sktime/sktime/issues/6641)
+- Improvements are also planned with the global forecasting interface - [#6997](https://github.com/sktime/sktime/issues/6997)
+- Enabling PEFT for foundation models - [#6968](https://github.com/sktime/sktime/issues/6968)
+
 # Achnowledgements
+
+I had a great experience over the summer, and although the GSoC period is coming to an end, going forward I shall continue to remain a contributor to sktime. I'm incredibly thankful to both Google and sktime for giving me this opportunity, and to the welcoming community and amazing mentors at sktime for making this experience such a memorable one. There is no doubt that I am a better coder than I was 4 months ago, and I'm eagerly looking forward to learning more in the time to come.
