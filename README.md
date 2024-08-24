@@ -28,6 +28,8 @@ TODO: tell some about opportunity, sktime and gsoc and this submission
 
 ## Pull Requests
 
+These contributions primarily involve the implementation of new algorithms and the enhancement and fixing of existing ones.
+
 | **Pull Request**                                    | **Status** | **Title**                                                                            | **Related Issue**                                     |
 | :-------------------------------------------------- | :--------- | :----------------------------------------------------------------------------------- | ----------------------------------------------------- |
 | [#6928](https://github.com/sktime/sktime/pull/6928) | Draft      | [ENH] Global Forecast API for BaseDeepNetworkPyTorch based interfaces                | [#6836](https://github.com/sktime/sktime/issues/6836) |
