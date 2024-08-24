@@ -333,6 +333,6 @@ Some relevant future work:
 - Improvements are also planned with the global forecasting interface - [#6997](https://github.com/sktime/sktime/issues/6997)
 - Enabling PEFT for foundation models - [#6968](https://github.com/sktime/sktime/issues/6968)
 
-# 😄 Achnowledgements
+# ⭐️ Achnowledgements
 
 I had a great experience over the summer, and although the GSoC period is coming to an end, going forward I shall continue to remain a contributor to sktime. I'm incredibly thankful to both Google and sktime for giving me this opportunity, and to the welcoming community and amazing mentors at sktime for making this experience such a memorable one. There is no doubt that I am a better coder than I was 4 months ago, and I'm eagerly looking forward to learning more in the time to come.
