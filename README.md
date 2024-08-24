@@ -1,7 +1,7 @@
 <img src="assets/gsoc-sktime-banner.png" alt="Google Summer of Code 2024 - Sktime Project Banner" width="100%">
 <hr>
 
-# About Project
+# ⭐️ About Project
 
 | **Program**        | **Google Summer of Code, 2024**                                                                                                                             |
 | :----------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -46,7 +46,7 @@ My project was focused on implementing and interfacing deep learning models in s
 - I had to dive deeper into certain libraries to implement features effectively, requiring more in-depth knowledge than I initially had.
 - I discovered that designing solutions was more challenging than implementing them, leading me to focus more on efficient design strategies before execution.
 
-# Contributions
+# 🎯 Contributions
 
 ## Pull Requests
 
@@ -83,7 +83,7 @@ Here, I will walk through some of the major contributions, from the above pull r
 
 To see the working and inference of these estimators, please refer to [code.ipynb](./code.ipynb).
 
-### MVTSTransformerClassifier
+### ⚡ MVTSTransformerClassifier
 
 - **Title:** [ENH] PyTorch Classifier & De-Novo Implementation of Transformer
 - **Status:** Merged
@@ -119,7 +119,7 @@ model = MVTSTransformerClassifier(
 
 For more details on how the estimator works, please refer to [code.ipynb](./code.ipynb).
 
-### TinyTimeMixer
+### ⚡ TinyTimeMixer
 
 - **Title:** [ENH] Interface to TinyTimeMixer Foundation Model
 - **Status:** Merged
@@ -157,7 +157,7 @@ model = TinyTimeMixerForecaster(
 
 For further details on how the estimator functions, please refer to [code.ipynb](./code.ipynb).
 
-### LTSFTransformer
+### ⚡ LTSFTransformer
 
 - **Title:** [ENH] De-Novo Implementation of LTSFTransformer Based on Cure-Lab Research Codebase
 - **Status:** Merged
@@ -210,7 +210,7 @@ model = LTSFTransformerForecaster(
 
 For further details on how the estimator functions, please refer to [code.ipynb](./code.ipynb).
 
-### TimesFM
+### ⚡ TimesFM
 
 - **Title:** [ENH] Interface to TimesFM Forecaster
 - **Status:** Open
@@ -240,7 +240,7 @@ forecaster = TimesFMForecaster(
 
 For more details on how the estimator functions, please refer to [code.ipynb](./code.ipynb).
 
-### PEFT for HFTransformersForecaster
+### ⚡ PEFT for HFTransformersForecaster
 
 - **Title:** [ENH] Extend HFTransformersForecaster for PEFT Methods
 - **Status:** Merged
@@ -283,7 +283,7 @@ forecaster = HFTransformersForecaster(
 
 For more details on how the estimator works, please refer to [code.ipynb](./code.ipynb).
 
-### AutoregressiveWrapper
+### ⚡ AutoregressiveWrapper
 
 - **Title:** [ENH] Implement Autoregressive Wrapper
 - **Status:** Open
@@ -313,7 +313,7 @@ wrapper = AutoRegressiveWrapper(
 
 For more details on how the estimator works, please refer to [code.ipynb](./code.ipynb).
 
-### Global Forecasting for PyTorch Models
+### ⚡ Global Forecasting for PyTorch Models
 
 - **Title:** [ENH] Global Forecast API for BaseDeepNetworkPyTorch-Based Interfaces
 - **Status:** Draft
@@ -333,6 +333,6 @@ Some relevant future work:
 - Improvements are also planned with the global forecasting interface - [#6997](https://github.com/sktime/sktime/issues/6997)
 - Enabling PEFT for foundation models - [#6968](https://github.com/sktime/sktime/issues/6968)
 
-# Achnowledgements
+# 😄 Achnowledgements
 
 I had a great experience over the summer, and although the GSoC period is coming to an end, going forward I shall continue to remain a contributor to sktime. I'm incredibly thankful to both Google and sktime for giving me this opportunity, and to the welcoming community and amazing mentors at sktime for making this experience such a memorable one. There is no doubt that I am a better coder than I was 4 months ago, and I'm eagerly looking forward to learning more in the time to come.
