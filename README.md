@@ -4,7 +4,7 @@
 # About Project
 
 | **Program**        | **Google Summer of Code, 2024**                                                                                                                             |
-| :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :----------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Organisation**   | [Sktime](https://summerofcode.withgoogle.com/programs/2024/organizations/sktime): A unified framework for ML with time series                               |
 | **Project**        | Sktime integration with deep learning backends - pytorch and huggingface - [Dashboard](https://summerofcode.withgoogle.com/programs/2024/projects/f5FggiB7) |
 | **Mentors**        | [Franz Király](https://github.com/fkiraly) - [Benedikt Heidrich](https://github.com/benHeid) - [Anirban Ray](https://github.com/yarnabrina)                 |
@@ -29,7 +29,7 @@ TODO: tell some about opportunity, sktime and gsoc and this submission
 ## Pull Requests
 
 | **Pull Request**                                    | **Status** | **Title**                                                                            | **Related Issue**                                     |
-| :--------------------------------------------------- | :---------- | :------------------------------------------------------------------------------------ | ----------------------------------------------------- |
+| :-------------------------------------------------- | :--------- | :----------------------------------------------------------------------------------- | ----------------------------------------------------- |
 | [#6928](https://github.com/sktime/sktime/pull/6928) | Draft      | [ENH] Global Forecast API for BaseDeepNetworkPyTorch based interfaces                | [#6836](https://github.com/sktime/sktime/issues/6836) |
 | [#6842](https://github.com/sktime/sktime/pull/6842) | Open       | [ENH] Implements Autoregressive Wrapper                                              | [#6802](https://github.com/sktime/sktime/issues/6802) |
 | [#6571](https://github.com/sktime/sktime/pull/6571) | Open       | [ENH] interface to TimesFM Forecaster                                                | [#6408](https://github.com/sktime/sktime/issues/6408) |
@@ -39,39 +39,19 @@ TODO: tell some about opportunity, sktime and gsoc and this submission
 | [#6457](https://github.com/sktime/sktime/pull/6457) | Merged     | [ENH] Extend HFTransformersForecaster for PEFT methods                               | [#6435](https://github.com/sktime/sktime/issues/6435) |
 | [#6321](https://github.com/sktime/sktime/pull/6321) | Merged     | [BUG] fixes failing test in neuralforecast auto freq, amid pandas freq deprecations  |                                                       |
 | [#6237](https://github.com/sktime/sktime/pull/6237) | Merged     | [ENH] Update doc and behavior of freq="auto" in neuralforecast                       |                                                       |
-| [#6367](https://github.com/sktime/sktime/pull/6367) | Merged     | [MNT] final change cycle (0.30.0) for renaming cINNForecaster to CINNForecaster | [#6120](https://github.com/sktime/sktime/issues/6120) |
-| [#6238](https://github.com/sktime/sktime/pull/6238) | Merged     | [MNT] change cycle (0.29.0) for renaming cINNForecaster to CINNForecaster       | [#6120](https://github.com/sktime/sktime/issues/6120) |
+| [#6367](https://github.com/sktime/sktime/pull/6367) | Merged     | [MNT] final change cycle (0.30.0) for renaming cINNForecaster to CINNForecaster      | [#6120](https://github.com/sktime/sktime/issues/6120) |
+| [#6238](https://github.com/sktime/sktime/pull/6238) | Merged     | [MNT] change cycle (0.29.0) for renaming cINNForecaster to CINNForecaster            | [#6120](https://github.com/sktime/sktime/issues/6120) |
 
-Side Work
+Pull Requests completed before the GSoC proposal submission.
 
-|                                                     |            |                                                                                 |                                                       |
-| --------------------------------------------------- | ---------- | ------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| **Pull Request**                                    | **Status** | **Title**                                                                       | **Related Issue**                                     |
-| [#7009](https://github.com/sktime/sktime/pull/7009) | Open       | [ENH] Improve documentation for TinyTimeMixer                                   |                                                       |
-| [#6965](https://github.com/sktime/sktime/pull/6965) | Merged     | [BUG] TinyTimeMixerForecaster: fix truncating index and update test_params      |                                                       |
-| [#6929](https://github.com/sktime/sktime/pull/6929) | Merged     | [ENH] improve test_global_forecasting_tag                                       |                                                       |
-| [#6853](https://github.com/sktime/sktime/pull/6853) | Merged     | [MNT] downgrade pykan version to <0.2.2                                         |                                                       |
-
-Pre-GSoC
-
-|                                                     |            |                                                                                      |                                                       |
-| --------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------- |
 | **Pull Request**                                    | **Status** | **Title**                                                                            | **Related Issue**                                     |
+| :-------------------------------------------------- | :--------- | :----------------------------------------------------------------------------------- | ----------------------------------------------------- |
 | [#6121](https://github.com/sktime/sktime/pull/6121) | Merged     | [MNT] initialize change cycle (0.28.0) for renaming cINNForecaster to CINNForecaster | [#6120](https://github.com/sktime/sktime/issues/6120) |
 | [#6039](https://github.com/sktime/sktime/pull/6039) | Merged     | [ENH] NeuralForecastRNN should auto-detect freq                                      |                                                       |
 | [#6088](https://github.com/sktime/sktime/pull/6088) | Merged     | [MNT] create build tool to check invalid backticks                                   |                                                       |
 | [#6023](https://github.com/sktime/sktime/pull/6023) | Merged     | [DOC] Fix invalid use of single-grave in docstrings                                  |                                                       |
 | [#6116](https://github.com/sktime/sktime/pull/6116) | Merged     | [ENH] Adds MSTL import statement in detrend                                          | [#6085](https://github.com/sktime/sktime/issues/6085) |
 | [#6059](https://github.com/sktime/sktime/pull/6059) | Merged     | [ENH] Examples for YtoX transformer docstring                                        |                                                       |
-
-Issue Opened by Me
-
-|                                                       |            |                                                                                       |
-| ----------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------- |
-| **Issue**                                             | **Status** | **Title**                                                                             |
-| [#6828](https://github.com/sktime/sktime/issues/6828) | Open       | [ENH] time series classifiers: encode or coerce y at base class level                 |
-| [#6790](https://github.com/sktime/sktime/issues/6790) | Open       | [ENH] improve sktime/networks folder structure                                        |
-| [#6158](https://github.com/sktime/sktime/issues/6158) | Open       | [ENH] cINNForecaster needs some informative error handling and improved documentation |
 
 ## Walk Through
 
