@@ -8,7 +8,7 @@
 | **Organisation**   | [Sktime](https://summerofcode.withgoogle.com/programs/2024/organizations/sktime): A unified framework for ML with time series                               |
 | **Project**        | Sktime integration with deep learning backends - pytorch and huggingface - [Dashboard](https://summerofcode.withgoogle.com/programs/2024/projects/f5FggiB7) |
 | **Mentors**        | [Franz Király](https://github.com/fkiraly) - [Benedikt Heidrich](https://github.com/benHeid) - [Anirban Ray](https://github.com/yarnabrina)                 |
-| **Project Length** | 350 hours                                                                                                                                                   |
+| **Project Length** | 350 hours (Large)                                                                                                                                           |
 
 ### Overview
 
@@ -40,11 +40,11 @@ My project was focused on implementing and interfacing deep learning models in s
 
 ### Challenges
 
-- Initially, managing time was challenging, as it was my first experience working on a project of this scale.
-- Maintaining consistency with daily stand-ups and weekly mentoring sessions was difficult at first.
-- Understanding and making changes to a large, complex codebase was particularly tough.
-- I had to dive deeper into certain libraries to implement features effectively, requiring more in-depth knowledge than I initially had.
-- I discovered that designing solutions was more challenging than implementing them, leading me to focus more on efficient design strategies before execution.
+- Initially, managing time was difficult, as it was my first experience working on a project of this scale. However, I quickly adapted by breaking down tasks and prioritizing them, which improved my efficiency.
+- Maintaining consistency with daily stand-ups and weekly mentoring sessions was challenging at first. Over time, I became more comfortable with agile practices, and I eventually led the weekly stand-ups, which enhanced my productivity and integration with the team.
+- Understanding and modifying a large, complex codebase was tough, but I tackled this by gradually familiarizing myself with key components, which made navigating and contributing to the codebase easier.
+- Implementing features required deeper knowledge of certain libraries than I initially had. I addressed this by dedicating extra time to learning these libraries, which allowed me to implement features effectively.
+- Designing solutions proved more challenging than implementing them. Recognizing this, I shifted my focus to developing efficient design strategies before execution, leading to more robust solutions.
 
 # 🎯 Contributions
 
@@ -81,7 +81,10 @@ In addition to this, these PRs were submitted during the application review peri
 
 Here, I will walk through some of the major contributions, from the above pull requests, where I added estimators to sktime.
 
-To see the working and inference of these estimators, please refer to [code.ipynb](./code.ipynb).
+To see the working and inference of these estimators, please refer to [CODE.ipynb](./CODE.ipynb).
+
+[<img src="assets/jupyter-logo.svg" alt="Jupyter Logo" width="15%">](./CODE.ipynb)
+
 
 ### ⚡ MVTSTransformerClassifier
 
@@ -117,7 +120,7 @@ model = MVTSTransformerClassifier(
 )
 ```
 
-For more details on how the estimator works, please refer to [code.ipynb](./code.ipynb).
+For more details on how the estimator works, please refer to [CODE.ipynb](./CODE.ipynb).
 
 ### ⚡ TinyTimeMixer
 
@@ -155,7 +158,7 @@ model = TinyTimeMixerForecaster(
 )
 ```
 
-For further details on how the estimator functions, please refer to [code.ipynb](./code.ipynb).
+For further details on how the estimator functions, please refer to [CODE.ipynb](./CODE.ipynb).
 
 ### ⚡ LTSFTransformer
 
@@ -208,7 +211,7 @@ model = LTSFTransformerForecaster(
 )
 ```
 
-For further details on how the estimator functions, please refer to [code.ipynb](./code.ipynb).
+For further details on how the estimator functions, please refer to [CODE.ipynb](./CODE.ipynb).
 
 ### ⚡ TimesFM
 
@@ -238,7 +241,7 @@ forecaster = TimesFMForecaster(
 )
 ```
 
-For more details on how the estimator functions, please refer to [code.ipynb](./code.ipynb).
+For more details on how the estimator functions, please refer to [CODE.ipynb](./CODE.ipynb).
 
 ### ⚡ PEFT for HFTransformersForecaster
 
@@ -281,7 +284,7 @@ forecaster = HFTransformersForecaster(
 )
 ```
 
-For more details on how the estimator works, please refer to [code.ipynb](./code.ipynb).
+For more details on how the estimator works, please refer to [CODE.ipynb](./CODE.ipynb).
 
 ### ⚡ AutoregressiveWrapper
 
@@ -311,7 +314,7 @@ wrapper = AutoRegressiveWrapper(
 )
 ```
 
-For more details on how the estimator works, please refer to [code.ipynb](./code.ipynb).
+For more details on how the estimator works, please refer to [CODE.ipynb](./CODE.ipynb).
 
 ### ⚡ Global Forecasting for PyTorch Models
 
@@ -333,6 +336,6 @@ Some relevant future work:
 - Improvements are also planned with the global forecasting interface - [#6997](https://github.com/sktime/sktime/issues/6997)
 - Enabling PEFT for foundation models - [#6968](https://github.com/sktime/sktime/issues/6968)
 
-# ⭐️ Achnowledgements
+# ⭐️ Acknowledgements
 
 I had a great experience over the summer, and although the GSoC period is coming to an end, going forward I shall continue to remain a contributor to sktime. I'm incredibly thankful to both Google and sktime for giving me this opportunity, and to the welcoming community and amazing mentors at sktime for making this experience such a memorable one. There is no doubt that I am a better coder than I was 4 months ago, and I'm eagerly looking forward to learning more in the time to come.
