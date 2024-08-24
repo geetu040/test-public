@@ -31,8 +31,8 @@ TODO: tell some about opportunity, sktime and gsoc and this submission
 
 | Header 1  | Header 2  | Header 3  |
 |:----------|:----------|:----------|
-| Data 1    | Data 2    | Data 3    |
-| Data 4    | Data 5    | Data 6    |
+| Data DataDataDataDataDataDataDataDataData 1    | Data 2    | Data 3    |
+| Data DataDataDataDataDataDataDataDataData 4    | Data 5    | Data 6    |
 
 
 
