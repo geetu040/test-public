@@ -1,3 +1,15 @@
+# Depth Pro: Sharp Monocular Metric Depth
+
+Depth Pro is a foundation model for zero-shot metric monocular depth estimation. It leverages a multi-scale vision transformer optimized for dense predictions. It downsamples an image at several scales. At each scale, it is split into patches, which are processed by a ViT-based (Dinov2) patch encoder, with weights shared across scales. Patches are merged into feature maps, upsampled, and fused via a DPT decoder.
+
+Relevant Links
+- **Research Paper**: [Depth Pro: Sharp Monocular Metric Depth in Less Than a Second](https://arxiv.org/pdf/2410.02073)
+- Authors: [Aleksei Bochkovskii](https://arxiv.org/search/cs?searchtype=author&query=Bochkovskii,+A), [Amaël Delaunoy](https://arxiv.org/search/cs?searchtype=author&query=Delaunoy,+A), and others
+- **Official Code**: [apple/ml-depth-pro](https://github.com/apple/ml-depth-pro)
+- **Official Weights**: [apple/DepthPro](https://huggingface.co/apple/DepthPro)
+- **Interface in Transformers (Open PR)**: [pull/34583](https://github.com/huggingface/transformers/pull/34583)
+- https://github.com/huggingface/transformers/pull/34583
+
 
 <a href="depth-pro-beyond-depth/assets/validation_outputs/SuperResolution_4x_384p.png">
     <img src="depth-pro-beyond-depth/assets/validation_outputs/SuperResolution_4x_384p.png" alt="validation_outputs/SuperResolution_4x_384p" width="100%">
