@@ -1,5 +1,5 @@
 
-<img src="assets/validation_outputs/SuperResolution_4x_384p.png" alt="Google Summer of Code 2024 - Sktime Project Banner" width="100%">
+<img src="depth-pro-beyond-depth/assets/validation_outputs/SuperResolution_4x_384p.png" alt="Google Summer of Code 2024 - Sktime Project Banner" width="100%">
 
 <img src="assets/gsoc-sktime-banner.png" alt="Google Summer of Code 2024 - Sktime Project Banner" width="100%">
 <hr>
