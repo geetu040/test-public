@@ -16,7 +16,7 @@
 
 In this repository, we use this architechture and the available pretrained weights for depth-estimation, to explore its capabilities in further image processings tasks like **Image Segmentation** and **Image Super Resolution**.
 
-## Quick Links
+**Quick Links**
 
 | Task                           | Web UI Interface                                                                                  | Code-Based Inference and Weights                                                                      | Training Code on Colab                                                                                                                                  | Training Code on Kaggle                                                                                                                        | Training Logs                                                     | Validation Outputs                                                          |
 | ------------------------------ | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
