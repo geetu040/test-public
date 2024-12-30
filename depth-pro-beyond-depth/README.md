@@ -35,8 +35,8 @@ In this repository, we use this architechture and the available pretrained weigh
 
 <div style="width: 100%; display: flex; justify-content: center;">
   <table style="width: 100%; text-align: center; border-collapse: collapse; table-layout: fixed;">
-    <thead>
-      <tr>
+    <thead style="width: 100%;">
+      <tr style="width: 100%;">
         <th style="width: 33%;">Input Image</th>
         <th style="width: 33%;">Mask (Ground Truth)</th>
         <th style="width: 33%;">Predicted Mask (DepthPro)</th>
