@@ -33,6 +33,15 @@ In this repository, we use this architechture and the available pretrained weigh
   - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1IXKoCHqzOwszmRrUiynbbGL_SiCwWKPK)
   - [Segmentation_Human.ipynb](Segmentation_Human.ipynb)
 
+<center>
+
+| Input Image | Mask (Ground Truth) | Predicted Mask (DepthPro) |
+| :---------: | :-----------------: | :-----------------------: |
+
+[![validation_outputs/Segmentation_Human](assets/validation_outputs_brief/Segmentation_Human.png)](assets/validation_outputs/Segmentation_Human.jpg)
+
+</center>
+
 <details>
   <summary>See the training logs</summary>
 
@@ -41,7 +50,7 @@ In this repository, we use this architechture and the available pretrained weigh
 </details>
 
 <details>
-  <summary>See the Validation Outputs</summary>
+  <summary>See all Validation Outputs</summary>
 
   [![validation_outputs/Segmentation_Human](assets/validation_outputs/Segmentation_Human.jpg)](assets/validation_outputs/Segmentation_Human.jpg)
 
@@ -57,6 +66,15 @@ In this repository, we use this architechture and the available pretrained weigh
   - [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/sacrum/depthpro-superresolution-4x-256p/)
   - [SuperResolution_4x_256p.ipynb](SuperResolution_4x_256p.ipynb)
 
+<center>
+
+| Low Resolution 256px (Input Image) | Super Resolution 1024px (Depth Pro) | High Resolution 1024px (Ground Truth) |
+| :--------------------------------: | :---------------------------------: | :-----------------------------------: |
+
+[![validation_outputs/SuperResolution_4x_256p](assets/validation_outputs_brief/SuperResolution_4x_256p.png)](assets/validation_outputs/SuperResolution_4x_256p.png)
+
+</center>
+
 <details>
   <summary>See the training logs</summary>
 
@@ -65,7 +83,7 @@ In this repository, we use this architechture and the available pretrained weigh
 </details>
 
 <details>
-  <summary>See the Validation Outputs</summary>
+  <summary>See all Validation Outputs</summary>
 
   [![validation_outputs/SuperResolution_4x_256p](assets/validation_outputs/SuperResolution_4x_256p.png)](assets/validation_outputs/SuperResolution_4x_256p.png)
 
@@ -81,6 +99,15 @@ In this repository, we use this architechture and the available pretrained weigh
   - [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/sacrum/depthpro-superresolution-4x-384p/)
   - [SuperResolution_4x_384p.ipynb](SuperResolution_4x_384p.ipynb)
 
+<center>
+
+| Low Resolution 384px (Input Image) | Super Resolution 1536px (Depth Pro) | High Resolution 1536px (Ground Truth) |
+| :--------------------------------: | :---------------------------------: | :-----------------------------------: |
+
+[![validation_outputs/SuperResolution_4x_384p](assets/validation_outputs_brief/SuperResolution_4x_384p.png)](assets/validation_outputs/SuperResolution_4x_384p.png)
+
+</center>
+
 <details>
   <summary>See the training logs</summary>
 
@@ -89,7 +116,7 @@ In this repository, we use this architechture and the available pretrained weigh
 </details>
 
 <details>
-  <summary>See the Validation Outputs</summary>
+  <summary>See all Validation Outputs</summary>
 
   [![validation_outputs/SuperResolution_4x_384p](assets/validation_outputs/SuperResolution_4x_384p.png)](assets/validation_outputs/SuperResolution_4x_384p.png)
 
