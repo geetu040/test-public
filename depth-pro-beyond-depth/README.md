@@ -52,6 +52,8 @@ In this repository, we use this architechture and the available pretrained weigh
   </tbody>
 </table>
 
+
+
 <details>
   <summary>See the training logs</summary>
 
@@ -96,6 +98,7 @@ In this repository, we use this architechture and the available pretrained weigh
 </table>
 
 
+
 <details>
   <summary>See the training logs</summary>
 
@@ -120,14 +123,26 @@ In this repository, we use this architechture and the available pretrained weigh
   - [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/sacrum/depthpro-superresolution-4x-384p/)
   - [SuperResolution_4x_384p.ipynb](SuperResolution_4x_384p.ipynb)
 
-<center>
+<table>
+  <thead>
+    <tr>
+      <th>Low Resolution 384px (Input Image)</th>
+      <th>Super Resolution 1536px (Depth Pro)</th>
+      <th>High Resolution 1536px (Ground Truth)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="3">
+        <a href="assets/validation_outputs/SuperResolution_4x_384p.png">
+          <img src="assets/validation_outputs_brief/SuperResolution_4x_384p.png" alt="Super Resolution 4x">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-| Low Resolution 384px (Input Image) | Super Resolution 1536px (Depth Pro) | High Resolution 1536px (Ground Truth) |
-| :--------------------------------: | :---------------------------------: | :-----------------------------------: |
 
-[![validation_outputs/SuperResolution_4x_384p](assets/validation_outputs_brief/SuperResolution_4x_384p.png)](assets/validation_outputs/SuperResolution_4x_384p.png)
-
-</center>
 
 <details>
   <summary>See the training logs</summary>
