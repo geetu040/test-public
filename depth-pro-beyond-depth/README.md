@@ -33,26 +33,24 @@ In this repository, we use this architechture and the available pretrained weigh
   - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1IXKoCHqzOwszmRrUiynbbGL_SiCwWKPK)
   - [Segmentation_Human.ipynb](Segmentation_Human.ipynb)
 
-<div style="width: 100%; display: flex; justify-content: center;">
-  <table style="width: 100%; text-align: center; border-collapse: collapse; table-layout: fixed;">
-    <thead style="width: 100%;">
-      <tr style="width: 100%;">
-        <th style="width: 33%;">Input Image</th>
-        <th style="width: 33%;">Mask (Ground Truth)</th>
-        <th style="width: 33%;">Predicted Mask (DepthPro)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td colspan="3">
-          <a href="assets/validation_outputs/Segmentation_Human.jpg">
-            <img src="assets/validation_outputs_brief/Segmentation_Human.png" alt="Segmentation Human" style="width: 100%;">
-          </a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<table>
+  <thead>
+    <tr>
+      <th>Input Image</th>
+      <th>Ground Truth</th>
+      <th>Prediction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="3">
+        <a href="assets/validation_outputs/Segmentation_Human.jpg">
+          <img src="assets/validation_outputs_brief/Segmentation_Human.png" alt="Segmentation Human"">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <details>
   <summary>See the training logs</summary>
