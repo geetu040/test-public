@@ -3,7 +3,7 @@
 
 
 
-<div style="display: flex;gap: 50px;">
+<div style="display: flex;gap: 100px;">
 
 <img src="https://cdn.simpleicons.org/python/3776AB" height="40"/>
 <img src="https://cdn.simpleicons.org/linux/FFFFFF" height="40"/>
@@ -17,7 +17,7 @@
 
 ---
 
-<div style="display: flex; align-items: center; justify-content: start; gap: 10px; flex-wrap: wrap;">
+<div style="display: flex;gap: 100px;">
 
 <a href="https://www.youtube.com/channel/UCzVFZywEGxAzE13Wff7cyCQ">
 	<img src="https://cdn.simpleicons.org/youtube/FF0000" height="40"/>
