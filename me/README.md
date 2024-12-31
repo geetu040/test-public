@@ -1,6 +1,6 @@
-<img align="right" alt="Github Stats" src="https://github-contribution-stats.vercel.app/api/?username=geetu040" height="100%" />
-
 ## 👤 About Me
+
+<img align="right" alt="Github Stats" src="https://github-contribution-stats.vercel.app/api/?username=geetu040" height="100%" />
 
 - Hello World! 👋
 - I am Armaghan, 22 years old,
