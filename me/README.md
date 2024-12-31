@@ -1,5 +1,17 @@
+<img align="right" alt="Github Stats" src="https://github-contribution-stats.vercel.app/api/?username=geetu040" height="100%" />
 
-<p align="center">
+- Hello World! 👋
+- I am Armaghan, 22 years old,
+- Software Engineer,
+- and a Deep Learning aficionado,
+- from Pakistan.
+- Building my foundations ...
+- [liked the profile picture?](https://huggingface.co/spaces/geetu040/DepthPro_Colorify)
+
+## 🛠️ My daily development tools
+
+
+<p align="start">
 
 <img src="https://cdn.simpleicons.org/python/3776AB" height="40"/>
 <img src="https://cdn.simpleicons.org/linux/FFFFFF" height="40"/>
@@ -11,66 +23,29 @@
 
 </p>
 
----
+## 📫 Lets connect
 
-<img src="https://i.sstatic.net/Vkq2a.png" height="40" width="40"> </img>
-
-<p align="center">
-
-<a href="https://www.youtube.com/channel/UCzVFZywEGxAzE13Wff7cyCQ">
-	<img src="https://cdn.simpleicons.org/youtube/FF0000" height="40" width="40"> </img>
-</a>
-
-<a href="https://portfolio-rho-gold.vercel.app/">
-	<img src="assets/icons/profile.png" height="40"/>
-</a>
-
-<a href="mailto:raoarmaghanshakir040@gmail.com">
-	<img src="https://cdn.simpleicons.org/gmail/EA4335" height="40"/>
-</a>
-
-<a href="https://github.com/geetu040">
-	<img src="https://cdn.simpleicons.org/github/FFFFFF" height="40"/>
-</a>
-
-<a href="https://www.linkedin.com/in/armaghan-shakir/">
-	<img src="assets/icons/linkedin.png" height="40"/>
-</a>
-
-<a href="https://www.kaggle.com/sacrum">
-	<img src="https://cdn.simpleicons.org/kaggle/20BEFF" height="40"/>
-</a>
-
-<a href="https://medium.com/@raoarmaghanshakir040">
-	<img src="https://cdn.simpleicons.org/medium/FFFFFF" height="40"/>
-</a>
-
-<a href="https://huggingface.co/geetu040">
-	<img src="https://cdn.simpleicons.org/huggingface/FFD21E" height="40"/>
-</a>
-
-<a href="https://www.fiverr.com/iamgeetu?up_rollout=true">
-	<img src="https://cdn.simpleicons.org/fiverr/1DBF73" height="40"/>
-</a>
-
-<a href="https://www.instagram.com/armaghan_shakir/">
-	<img src="https://cdn.simpleicons.org/instagram/FF0069" height="40"/>
-</a>
-
-<a href="https://www.facebook.com/armaghan040/">
-	<img src="https://cdn.simpleicons.org/facebook/0866FF" height="40"/>
-</a>
-
-<a href="https://scholar.google.com.pk/citations?user=iD5MG7sAAAAJ">
-	<img src="https://cdn.simpleicons.org/googlescholar/4285F4" height="40"/>
-</a>
-
-</p>
-
----
+[![](https://img.shields.io/badge/youtube-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/channel/UCzVFZywEGxAzE13Wff7cyCQ)
+[![](https://img.shields.io/badge/portfolio-000000?style=for-the-badge&logo=about.me)](https://portfolio-rho-gold.vercel.app/)
+[![](https://img.shields.io/badge/gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raoarmaghanshakir040@gmail.com)
+[![](https://img.shields.io/badge/github-FFFFFF?style=for-the-badge&logo=github&logoColor=black)](https://github.com/geetu040)
+[![](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge)](https://www.linkedin.com/in/armaghan-shakir/)
+[![](https://img.shields.io/badge/kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/sacrum)
+[![](https://img.shields.io/badge/medium-FFFFFF?style=for-the-badge&logo=medium&logoColor=black)](https://medium.com/@raoarmaghanshakir040)
+[![](https://img.shields.io/badge/huggingface-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/geetu040)
+[![](https://img.shields.io/badge/fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/iamgeetu?up_rollout=true)
+[![](https://img.shields.io/badge/instagram-FF0069?style=for-the-badge&logo=instagram)](https://www.instagram.com/armaghan_shakir/)
+[![](https://img.shields.io/badge/facebook-0866FF?style=for-the-badge&logo=facebook)](https://www.facebook.com/armaghan040/)
+[![](https://img.shields.io/badge/googlescholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com.pk/citations?user=iD5MG7sAAAAJ)
 
 
+## 🚀 Career Highlights
 
+
+## 🌍 Open Source Contributions
+
+
+## 🔥 Projects
 
 
 
