@@ -1,5 +1,7 @@
 <img align="right" alt="Github Stats" src="https://github-contribution-stats.vercel.app/api/?username=geetu040" height="100%" />
 
+## 👤 About Me
+
 - Hello World! 👋
 - I am Armaghan, 22 years old,
 - Software Engineer,
@@ -21,21 +23,6 @@
 <img src="https://cdn.simpleicons.org/huggingface/FFD21E" height="40"/>
 
 </p>
-
-## 📫 Lets connect
-
-[![](https://img.shields.io/badge/youtube-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/channel/UCzVFZywEGxAzE13Wff7cyCQ)
-[![](https://img.shields.io/badge/portfolio-000000?style=for-the-badge&logo=about.me)](https://portfolio-rho-gold.vercel.app/)
-[![](https://img.shields.io/badge/gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raoarmaghanshakir040@gmail.com)
-[![](https://img.shields.io/badge/github-FFFFFF?style=for-the-badge&logo=github&logoColor=black)](https://github.com/geetu040)
-[![](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge)](https://www.linkedin.com/in/armaghan-shakir/)
-[![](https://img.shields.io/badge/kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/sacrum)
-[![](https://img.shields.io/badge/medium-FFFFFF?style=for-the-badge&logo=medium&logoColor=black)](https://medium.com/@raoarmaghanshakir040)
-[![](https://img.shields.io/badge/huggingface-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/geetu040)
-[![](https://img.shields.io/badge/fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/iamgeetu?up_rollout=true)
-[![](https://img.shields.io/badge/instagram-FF0069?style=for-the-badge&logo=instagram)](https://www.instagram.com/armaghan_shakir/)
-[![](https://img.shields.io/badge/facebook-0866FF?style=for-the-badge&logo=facebook)](https://www.facebook.com/armaghan040/)
-[![](https://img.shields.io/badge/googlescholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com.pk/citations?user=iD5MG7sAAAAJ)
 
 ## 🚀 Career Highlights
 
@@ -146,4 +133,19 @@ Project Link: [Fiver Portfolio](https://www.fiverr.com/users/iamgeetu/portfolio/
 | **Deep Learning Courses**                             | My practice code while completing the courses on coursera <br> `Data Science` <br> [Code](https://github.com/geetu040/courses)                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **Pacman**                                            | Pacman game implemented using tkinter in python <br> `Tkinter` <br> [Code](https://github.com/geetu040/pacman)                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
-<details/>
+</details>
+
+## 📫 Lets connect
+
+[![](https://img.shields.io/badge/youtube-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/channel/UCzVFZywEGxAzE13Wff7cyCQ)
+[![](https://img.shields.io/badge/portfolio-000000?style=for-the-badge&logo=about.me)](https://portfolio-rho-gold.vercel.app/)
+[![](https://img.shields.io/badge/gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raoarmaghanshakir040@gmail.com)
+[![](https://img.shields.io/badge/github-FFFFFF?style=for-the-badge&logo=github&logoColor=black)](https://github.com/geetu040)
+[![](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge)](https://www.linkedin.com/in/armaghan-shakir/)
+[![](https://img.shields.io/badge/kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/sacrum)
+[![](https://img.shields.io/badge/medium-FFFFFF?style=for-the-badge&logo=medium&logoColor=black)](https://medium.com/@raoarmaghanshakir040)
+[![](https://img.shields.io/badge/huggingface-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/geetu040)
+[![](https://img.shields.io/badge/fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/iamgeetu?up_rollout=true)
+[![](https://img.shields.io/badge/instagram-FF0069?style=for-the-badge&logo=instagram)](https://www.instagram.com/armaghan_shakir/)
+[![](https://img.shields.io/badge/facebook-0866FF?style=for-the-badge&logo=facebook)](https://www.facebook.com/armaghan040/)
+[![](https://img.shields.io/badge/googlescholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com.pk/citations?user=iD5MG7sAAAAJ)
