@@ -16,6 +16,8 @@
 
 <!-- <div style="display: flex; align-items: center; gap: 10px;"> -->
 
+![](https://cdn.simpleicons.org/youtube/FF0000)
+
 <a href="https://www.youtube.com/channel/UCzVFZywEGxAzE13Wff7cyCQ">
 	<img src="https://cdn.simpleicons.org/youtube/FF0000" height="40"/>
 </a>
