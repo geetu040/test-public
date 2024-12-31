@@ -3,12 +3,19 @@
 <img align="right" alt="Github Stats" src="https://github-contribution-stats.vercel.app/api/?username=geetu040" height="100%" />
 
 - Hello World! 👋
-- I am Armaghan, 22 years old,
+- 
+- I am Armaghan,
+- 22 years old,
 - Software Engineer,
 - and a Deep Learning aficionado,
 - from Pakistan.
+- 
 - Building my foundations ...
-- [liked the profile picture?](https://huggingface.co/spaces/geetu040/DepthPro_Colorify)
+- Exploring open source ...
+- 
+- liked the profile picture?
+- [get one for yourself](https://huggingface.co/spaces/geetu040/DepthPro_Colorify)
+
 
 ## 🛠️ My daily development tools
 
@@ -28,7 +35,7 @@
 
 See all experiences at [Linkedin](https://www.linkedin.com/in/armaghan-shakir/details/experience/)
 
-**Google Summer of Code @ sktime**
+### Google Summer of Code @ sktime
 
 - Contributed to [sktime](https://github.com/sktime/sktime), which provides a unified framework for various time series learning tasks.
 - Focused on integrating state-of-the-art deep learning models into sktime, utilizing PyTorch and Hugging Face.
@@ -37,7 +44,7 @@ See all experiences at [Linkedin](https://www.linkedin.com/in/armaghan-shakir/de
 	- [Work Submission](https://github.com/geetu040/Google-Summer-of-Code-2024-Sktime)
 	- [Contributions to sktime]()
 
-**DAAD Research Intern @ Hochschule RheinMain**
+### DAAD Research Intern @ Hochschule RheinMain
 
 - Selected for research internship at Hochschule RheinMain, Wiesbaden, Germany, under the DAAD (German Academic Exchange Service) program.
 - Focused on the research topic "Knowledge Distillation for Document Understanding" during the internship.
@@ -59,35 +66,35 @@ Contributed to multiple projects:
 
 I have contributed to the following libraries
 
-<!-- **huggingface/transformers**
+<!-- ### huggingface/transformers**
 - [Add support for Apple's Depth-Pro](https://github.com/huggingface/transformers/pull/34583) -->
 
-**sktime/sktime**
+### sktime/sktime
 - [Interface to TimesFM Forecaster](https://github.com/sktime/sktime/pull/6571)
 - [Pytorch Classifier & de-novo implementation of Transformer](https://github.com/sktime/sktime/pull/6791)
 - [Interface to TinyTimeMixer foundation model](https://github.com/sktime/sktime/pull/6712)
 - [De-novo implementation of LTSFTransformer](https://github.com/sktime/sktime/pull/6202)
 - [Extend HFTransformersForecaster for PEFT methods](https://github.com/sktime/sktime/pull/6457)
 
-**qdrant/qdrant-client**
+### qdrant/qdrant-client
 - [Expose Setting for GRPC Channel-Level Compression](https://github.com/qdrant/qdrant-client/pull/480)
 
-**qdrant/fastembed**
+### qdrant/fastembed
 - [Support sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2](https://github.com/qdrant/fastembed/pull/129)
 
 ## 🔥 Projects
 
-**DepthPro: Beyond Depth**
+### DepthPro: Beyond Depth
 
 
-**Pymodels**
+### Pymodels
 
 Series of Data Science projects, where I have created Computer Vision, NLP models and
 Recommender Systems from scratch.
 
 Project Link: [geetu040/pymodels](https://github.com/geetu040/pymodels)
 
-**Visual DSA**
+### Visual DSA
 
 A Visual Implementation of Sorting Algorithms, Graphs and Trees.
 
@@ -95,7 +102,7 @@ App: [Netlify](https://visual-dsa.netlify.app/)
 
 Code: [geetu040/visual-dsa](https://github.com/geetu040/visual-dsa)
 
-**FM Connect.AI**
+### FM Connect.AI
 
 End-to-End RAG pipeline with deployment on Google Cloud Platform, using Flask, Google Cloud, Pinecone, My SQL, Firestore, Filestore, Datastore, Firebase Authentication, Langchain.
 
