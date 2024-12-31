@@ -1,6 +1,7 @@
 
 <!-- <div style="display: flex;"> -->
 
+<div>
 
 <img src="https://cdn.simpleicons.org/python/3776AB" height="40"/>
 <img src="https://cdn.simpleicons.org/linux/FFFFFF" height="40"/>
@@ -9,6 +10,8 @@
 <img src="https://cdn.simpleicons.org/tensorflow/FF6F00" height="40"/>
 <img src="https://cdn.simpleicons.org/lightning/792EE5" height="40"/>
 <img src="https://cdn.simpleicons.org/huggingface/FFD21E" height="40"/>
+
+</div>
 
 <!-- </div> -->
 
