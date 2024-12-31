@@ -1,9 +1,5 @@
 
-
-
-
-
-<div style="display: flex;gap: 100px;">
+<div style="display: flex;">
 
 <img src="https://cdn.simpleicons.org/python/3776AB" height="40"/>
 <img src="https://cdn.simpleicons.org/linux/FFFFFF" height="40"/>
@@ -15,9 +11,7 @@
 
 </div>
 
----
-
-<div style="display: flex;gap: 100px;">
+<div style="display: flex;">
 
 <a href="https://www.youtube.com/channel/UCzVFZywEGxAzE13Wff7cyCQ">
 	<img src="https://cdn.simpleicons.org/youtube/FF0000" height="40"/>
@@ -68,6 +62,8 @@
 </a>
 
 </div>
+
+---
 
 
 
