@@ -13,11 +13,11 @@
 
 <div style="display: flex;">
 
-<a href="https://www.youtube.com/channel/UCzVFZywEGxAzE13Wff7cyCQ">
+<a style="margin: 2px 10px;" href="https://www.youtube.com/channel/UCzVFZywEGxAzE13Wff7cyCQ">
 	<img src="https://cdn.simpleicons.org/youtube/FF0000" height="40"/>
 </a>
 
-<a href="https://portfolio-rho-gold.vercel.app/">
+<a style="margin: 2px 10px;" href="https://portfolio-rho-gold.vercel.app/">
 	<img src="assets/icons/profile.png" height="40"/>
 </a>
 
