@@ -86,6 +86,9 @@ I have contributed to the following libraries
 
 ### DepthPro: Beyond Depth
 
+Depth Estimation model, DepthPro by Apple, experimented for Image Segmentation and Image Super Resolution.
+
+Project Link: [geetu040/depthpro-beyond-depth](https://github.com/geetu040/depthpro-beyond-depth)
 
 ### Pymodels
 
