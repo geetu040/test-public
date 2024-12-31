@@ -1,4 +1,7 @@
 
+
+  <img src="assets/python.svg" alt="pytorch" width="40" height="40"/> 
+
 ![](https://img.shields.io/badge/Python-transparent?style=for-the-badge&logo=python)
 
 <!-- ![](https://img.shields.io/badge/Python-000000?style=flat&logo=python&logoColor=)
