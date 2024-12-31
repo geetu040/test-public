@@ -3,7 +3,7 @@
 
 
 
-<div style="display: flex; align-items: center; justify-content: center; gap: 30px; flex-wrap: wrap;">
+<div style="margin: auto; display: flex; align-items: center; justify-content: center; gap: 50px; flex-wrap: wrap;">
 
 <img src="https://cdn.simpleicons.org/python/3776AB" height="40"/>
 <img src="https://cdn.simpleicons.org/linux/FFFFFF" height="40"/>
