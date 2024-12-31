@@ -1,10 +1,11 @@
 
-![](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=)
-![](https://img.shields.io/badge/Python-000000?style=flat&logo=python&logoColor=)
+![](https://img.shields.io/badge/Python-transparent?style=for-the-badge&logo=python)
+
+<!-- ![](https://img.shields.io/badge/Python-000000?style=flat&logo=python&logoColor=)
 ![](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=)
 ![](https://img.shields.io/badge/Python-000000?style=plastic&logo=python&logoColor=)
 ![](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=)
-![](https://img.shields.io/badge/Python-000000?style=social&logo=python&logoColor=)
+![](https://img.shields.io/badge/Python-000000?style=social&logo=python) -->
 
 
 <!-- <p align="center">
