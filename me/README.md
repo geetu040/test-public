@@ -1,5 +1,6 @@
 
-<div style="display: flex;">
+<!-- <div style="display: flex;"> -->
+
 
 <img src="https://cdn.simpleicons.org/python/3776AB" height="40"/>
 <img src="https://cdn.simpleicons.org/linux/FFFFFF" height="40"/>
@@ -9,9 +10,11 @@
 <img src="https://cdn.simpleicons.org/lightning/792EE5" height="40"/>
 <img src="https://cdn.simpleicons.org/huggingface/FFD21E" height="40"/>
 
-</div>
+<!-- </div> -->
 
-<div style="display: flex; align-items: center; gap: 10px;">
+---
+
+<!-- <div style="display: flex; align-items: center; gap: 10px;"> -->
 
 <a href="https://www.youtube.com/channel/UCzVFZywEGxAzE13Wff7cyCQ">
 	<img src="https://cdn.simpleicons.org/youtube/FF0000" height="40"/>
@@ -61,7 +64,7 @@
 	<img src="https://cdn.simpleicons.org/googlescholar/4285F4" height="40"/>
 </a>
 
-</div>
+<!-- </div> -->
 
 ---
 
