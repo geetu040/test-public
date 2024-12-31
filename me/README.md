@@ -2,19 +2,21 @@
 
 <img align="right" alt="Github Stats" src="https://github-contribution-stats.vercel.app/api/?username=geetu040" height="100%" />
 
-- Hello World! 👋
-- 
-- I am Armaghan,
-- 22 years old,
-- Software Engineer,
-- and a Deep Learning aficionado,
-- from Pakistan.
-- 
-- Building my foundations ...
-- Exploring open source ...
-- 
-- liked the profile picture?
-- [get one for yourself](https://huggingface.co/spaces/geetu040/DepthPro_Colorify)
+Hello World! 👋
+
+I am Armaghan,  
+22 years old,  
+Software Engineer,  
+and a Deep Learning aficionado,  
+from Pakistan.
+
+Building my foundations ...  
+Exploring open source ...
+
+liked the profile picture?  
+[get one for yourself](https://huggingface.co/spaces/geetu040/DepthPro_Colorify)
+
+<br>
 
 
 ## 🛠️ My daily development tools
@@ -30,6 +32,8 @@
 <img src="https://cdn.simpleicons.org/huggingface/FFD21E" height="40"/>
 
 </p>
+
+<br>
 
 ## 🚀 Career Highlights
 
@@ -62,6 +66,8 @@ Contributed to multiple projects:
 
 -->
 
+<br>
+
 ## 🌍 Open Source Contributions
 
 I have contributed to the following libraries
@@ -82,34 +88,30 @@ I have contributed to the following libraries
 ### qdrant/fastembed
 - [Support sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2](https://github.com/qdrant/fastembed/pull/129)
 
+<br>
+
 ## 🔥 Projects
 
 ### DepthPro: Beyond Depth
 
-Depth Estimation model, DepthPro by Apple, experimented for Image Segmentation and Image Super Resolution.
-
-Project Link: [geetu040/depthpro-beyond-depth](https://github.com/geetu040/depthpro-beyond-depth)
+- Depth Estimation model, DepthPro by Apple, experimented for Image Segmentation and Image Super Resolution.
+- Project Link: [geetu040/depthpro-beyond-depth](https://github.com/geetu040/depthpro-beyond-depth)
 
 ### Pymodels
 
-Series of Data Science projects, where I have created Computer Vision, NLP models and
-Recommender Systems from scratch.
-
-Project Link: [geetu040/pymodels](https://github.com/geetu040/pymodels)
+- Series of Data Science projects, where I have created Computer Vision, NLP models and Recommender Systems from scratch.
+- Project Link: [geetu040/pymodels](https://github.com/geetu040/pymodels)
 
 ### Visual DSA
 
-A Visual Implementation of Sorting Algorithms, Graphs and Trees.
-
-App: [Netlify](https://visual-dsa.netlify.app/)
-
-Code: [geetu040/visual-dsa](https://github.com/geetu040/visual-dsa)
+- A Visual Implementation of Sorting Algorithms, Graphs and Trees.
+- App: [Netlify](https://visual-dsa.netlify.app/)
+- Code: [geetu040/visual-dsa](https://github.com/geetu040/visual-dsa)
 
 ### FM Connect.AI
 
-End-to-End RAG pipeline with deployment on Google Cloud Platform, using Flask, Google Cloud, Pinecone, My SQL, Firestore, Filestore, Datastore, Firebase Authentication, Langchain.
-
-Project Link: [Fiver Portfolio](https://www.fiverr.com/users/iamgeetu/portfolio/NjUzZWEyOTE3Y2NlZTgwMDAxYWQ2MDNi)
+- End-to-End RAG pipeline with deployment on Google Cloud Platform, using Flask, Google Cloud, Pinecone, My SQL, Firestore, Filestore, Datastore, Firebase Authentication, Langchain.
+- Project Link: [Fiver Portfolio](https://www.fiverr.com/users/iamgeetu/portfolio/NjUzZWEyOTE3Y2NlZTgwMDAxYWQ2MDNi)
 
 <details>
 
@@ -144,6 +146,8 @@ Project Link: [Fiver Portfolio](https://www.fiverr.com/users/iamgeetu/portfolio/
 | **Pacman**                                            | Pacman game implemented using tkinter in python <br> `Tkinter` <br> [Code](https://github.com/geetu040/pacman)                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 </details>
+
+<br>
 
 ## 📫 Lets connect
 
