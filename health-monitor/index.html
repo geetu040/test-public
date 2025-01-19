@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,6 +39,7 @@
       padding: 15px;
       border-radius: 10px;
       color: red;
+      margin-bottom: 20px;
     }
 
     button {
@@ -52,15 +54,24 @@
     button:hover {
       background-color: #0056b3;
     }
+
+    .hidden {
+      display: none;
+    }
   </style>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const dataDisplay = document.querySelector('.data-display');
       const alertBox = document.querySelector('.alert');
-      const callButton = document.querySelector('button');
+      const callButton = document.querySelector('#call-doctor');
+      const resetButton = document.querySelector('#reset');
 
-      // Simulated data stream
+      let intervalId;
+      let abnormalDetected = false;
+
       function fetchData() {
+        if (abnormalDetected) return;
+
         const isAbnormal = Math.random() < 0.2; // 20% chance for abnormal reading
         const data = {
           spo2: isAbnormal ? Math.floor(Math.random() * 5) + 90 : Math.floor(Math.random() * 10) + 95, // Random SPO2
@@ -83,20 +94,35 @@
           data.bodyTemp > 37.5 ||
           data.ecg === 'Abnormal'
         ) {
+          abnormalDetected = true;
           alertBox.style.display = 'block';
-        } else {
-          alertBox.style.display = 'none';
+          clearInterval(intervalId);
         }
       }
 
-      setInterval(fetchData, 2000);
+      function resetData() {
+        abnormalDetected = false;
+        alertBox.style.display = 'none';
+        dataDisplay.innerHTML = `
+          <p><strong>SPO2:</strong> --%</p>
+          <p><strong>Heart Rate:</strong> -- bpm</p>
+          <p><strong>Body Temperature:</strong> --°C</p>
+          <p><strong>ECG:</strong> --</p>
+        `;
+        intervalId = setInterval(fetchData, 1000);
+      }
+
+      intervalId = setInterval(fetchData, 1000);
 
       callButton.addEventListener('click', () => {
         window.location.href = 'tel:+1234567890'; // Replace with actual doctor's number
       });
+
+      resetButton.addEventListener('click', resetData);
     });
   </script>
 </head>
+
 <body>
   <div class="header">
     <h1>Health Monitor</h1>
@@ -109,7 +135,11 @@
   </div>
   <div class="alert" style="display: none;">
     <p>Warning: Abnormal health readings detected!</p>
-    <button>Call Doctor</button>
+    <button id="call-doctor">Call Doctor</button>
+  </div>
+  <div style="margin-top: 20px;">
+    <button id="reset">Reset</button>
   </div>
 </body>
+
 </html>
