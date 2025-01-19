@@ -2,144 +2,30 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Health Monitor</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f0f2f5;
-      color: #333;
-      text-align: center;
-      padding: 20px;
-    }
-
-    .header {
-      background-color: #282c34;
-      padding: 20px;
-      color: white;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-
-    .data-display {
-      text-align: left;
-      margin: 20px auto;
-      padding: 10px;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      max-width: 400px;
-    }
-
-    .alert {
-      margin-top: 20px;
-      background: #ffcccc;
-      padding: 15px;
-      border-radius: 10px;
-      color: red;
-      margin-bottom: 20px;
-    }
-
-    button {
-      padding: 10px 15px;
-      background-color: #007bff;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #0056b3;
-    }
-
-    .hidden {
-      display: none;
-    }
-  </style>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const dataDisplay = document.querySelector('.data-display');
-      const alertBox = document.querySelector('.alert');
-      const callButton = document.querySelector('#call-doctor');
-      const resetButton = document.querySelector('#reset');
-
-      let intervalId;
-      let abnormalDetected = false;
-
-      function fetchData() {
-        if (abnormalDetected) return;
-
-        const isAbnormal = Math.random() < 0.2; // 20% chance for abnormal reading
-        const data = {
-          spo2: isAbnormal ? Math.floor(Math.random() * 5) + 90 : Math.floor(Math.random() * 10) + 95, // Random SPO2
-          heartRate: isAbnormal ? (Math.random() > 0.5 ? Math.floor(Math.random() * 20) + 40 : Math.floor(Math.random() * 20) + 100) : Math.floor(Math.random() * 40) + 60, // Random HR
-          bodyTemp: isAbnormal ? (Math.random() * 2 + 38).toFixed(1) : (Math.random() * 1.5 + 36).toFixed(1), // Random temp
-          ecg: isAbnormal ? 'Abnormal' : 'Normal',
-        };
-
-        dataDisplay.innerHTML = `
-          <p><strong>SPO2:</strong> ${data.spo2}%</p>
-          <p><strong>Heart Rate:</strong> ${data.heartRate} bpm</p>
-          <p><strong>Body Temperature:</strong> ${data.bodyTemp}°C</p>
-          <p><strong>ECG:</strong> ${data.ecg}</p>
-        `;
-
-        if (
-          data.spo2 < 95 ||
-          data.heartRate < 60 ||
-          data.heartRate > 100 ||
-          data.bodyTemp > 37.5 ||
-          data.ecg === 'Abnormal'
-        ) {
-          abnormalDetected = true;
-          alertBox.style.display = 'block';
-          clearInterval(intervalId);
-        }
-      }
-
-      function resetData() {
-        abnormalDetected = false;
-        alertBox.style.display = 'none';
-        dataDisplay.innerHTML = `
-          <p><strong>SPO2:</strong> --%</p>
-          <p><strong>Heart Rate:</strong> -- bpm</p>
-          <p><strong>Body Temperature:</strong> --°C</p>
-          <p><strong>ECG:</strong> --</p>
-        `;
-        intervalId = setInterval(fetchData, 1000);
-      }
-
-      intervalId = setInterval(fetchData, 1000);
-
-      callButton.addEventListener('click', () => {
-        window.location.href = 'tel:+1234567890'; // Replace with actual doctor's number
-      });
-
-      resetButton.addEventListener('click', resetData);
-    });
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Monitor</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <div class="header">
-    <h1>Health Monitor</h1>
-  </div>
-  <div class="data-display">
-    <p><strong>SPO2:</strong> --%</p>
-    <p><strong>Heart Rate:</strong> -- bpm</p>
-    <p><strong>Body Temperature:</strong> --°C</p>
-    <p><strong>ECG:</strong> --</p>
-  </div>
-  <div class="alert" style="display: none;">
-    <p>Warning: Abnormal health readings detected!</p>
-    <button id="call-doctor">Call Doctor</button>
-  </div>
-  <div style="margin-top: 20px;">
-    <button id="reset">Reset</button>
-  </div>
+    <div class="header">
+        <h1>Health Monitor</h1>
+    </div>
+    <div class="data-display">
+        <p><strong>SPO2:</strong> --%</p>
+        <p><strong>Heart Rate:</strong> -- bpm</p>
+        <p><strong>Body Temperature:</strong> --°C</p>
+        <p><strong>ECG:</strong> --</p>
+    </div>
+    <div class="alert" style="display: none;">
+        <p>Warning: Abnormal health readings detected!</p>
+        <button id="call-doctor">Call Doctor</button>
+    </div>
+    <div style="margin-top: 20px;">
+        <button id="reset">Reset</button>
+    </div>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
