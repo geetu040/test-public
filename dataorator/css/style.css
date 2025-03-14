@@ -1,0 +1,241 @@
+/* Reset and base typography */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #111827; /* Dark background */
+  color: #fff;
+  padding-top: 70px; /* Space for fixed navbar */
+}
+
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1f2937; /* Dark gray */
+  border-bottom: 1px solid #374151;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-menu .navbar-link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu .navbar-link:hover {
+  color: #3b82f6;
+}
+
+/* Main container */
+.container {
+  display: flex;
+  height: calc(100vh - 60px); /* Subtract navbar height */
+}
+
+/* Sidebar */
+.sidebar {
+  width: 25%;
+  padding: 16px;
+  background-color: #111827; /* bg-gray-900 approx */
+  border-right: 1px solid #374151; /* border-gray-700 */
+}
+
+.sidebar h2 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.sidebar p {
+  font-size: 0.875rem;
+  color: #9ca3af; /* text-gray-400 */
+  margin-bottom: 16px;
+}
+
+.sidebar input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #1f2937; /* bg-gray-800 */
+  border: 1px solid #374151; /* border-gray-700 */
+  color: #fff;
+  border-radius: 4px;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2563eb; /* bg-blue-600 */
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.sidebar button:hover {
+  background-color: #3b82f6; /* hover:bg-blue-500 */
+}
+
+/* Connection status dialogue box */
+.connection-status {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-align: center;
+  display: none; /* hidden by default */
+}
+
+.connection-status.success {
+  background-color: #10b981; /* green */
+  color: #fff;
+}
+
+.connection-status.error {
+  background-color: #ef4444; /* red */
+  color: #fff;
+}
+
+/* Chat Area */
+.chat-area {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.chat-area h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.messages {
+  flex-grow: 1;
+  padding: 16px;
+  background-color: #111827; /* bg-gray-900 */
+  border-radius: 8px;
+  overflow-y: auto;
+  margin-bottom: 16px;
+}
+
+/* Message cards */
+.message-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.message-bot {
+  background-color: #1f2937; /* bg-gray-800 */
+}
+
+.message-user {
+  background-color: #374151; /* bg-gray-700 */
+  white-space: normal;
+}
+
+.message-icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.message-card.message-user {
+  text-overflow: clip;
+}
+
+.icon-bot {
+  color: #fbbf24; /* yellow-400 */
+}
+
+span {
+  overflow-wrap: anywhere;
+}
+
+.message-card.message-user {
+  overflow-wrap: anywhere;
+}
+
+.icon-user {
+  color: #ef4444; /* red-400 */
+}
+
+/* Input Box */
+.input-box {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #374151;
+  padding-top: 16px;
+}
+
+.input-box input {
+  flex-grow: 1;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  color: #fff;
+  margin-right: 8px;
+}
+
+.input-box button {
+  padding: 12px 16px;
+  border-radius: 8px;
+  background-color: #2563eb;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-box button:hover {
+  background-color: #3b82f6;
+}
+
+/* Custom scrollbar */
+.messages::-webkit-scrollbar {
+  width: 8px;
+}
+
+.messages::-webkit-scrollbar-track {
+  background: #374151;
+  border-radius: 4px;
+}
+
+.messages::-webkit-scrollbar-thumb {
+  background: #6b7280;
+  border-radius: 4px;
+}

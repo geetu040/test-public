@@ -1,0 +1,116 @@
+/* Reset and base typography */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #111827; /* Dark background */
+  color: #fff;
+  padding-top: 70px; /* Space for fixed navbar */
+}
+
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1f2937; /* Dark gray */
+  border-bottom: 1px solid #374151;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-menu .navbar-link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu .navbar-link:hover {
+  color: #3b82f6; /* Blue accent on hover */
+}
+
+/* Container for the database options page */
+.choose-container {
+  padding: 50px;
+  text-align: center;
+  background-color: #111827; /* Unified with body color */
+  color: #fff;
+  min-height: calc(100vh - 70px); /* Adjust height minus navbar */
+}
+
+/* Heading */
+.choose-heading {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  animation: fadeIn 2s;
+}
+
+/* Options container */
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Individual option card */
+.option-card {
+  background-color: #1f2937; /* Dark gray */
+  border: 1px solid #374151;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.option-card:hover {
+  transform: translateY(-10px);
+  background-color: #111827;
+}
+
+.option-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.option-card p {
+  font-size: 1rem;
+  color: #9ca3af;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

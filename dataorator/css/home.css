@@ -1,0 +1,124 @@
+/* Reset and base typography */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #111827; /* Dark background */
+  color: #fff;
+  padding-top: 70px; /* Space for fixed navbar */
+}
+
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1f2937; /* Dark gray */
+  border-bottom: 1px solid #374151;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-menu .navbar-link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu .navbar-link:hover {
+  color: #3b82f6; /* Blue accent on hover */
+}
+
+/* Home Container Layout */
+.home-container {
+  display: flex;
+  height: calc(100vh - 70px); /* Full height minus navbar */
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+/* Left Section */
+.left-section {
+  flex: 1;
+}
+
+.main-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  /* Initially hidden; typewriter script will fill in and reveal the text */
+  opacity: 1;
+}
+
+.get-started {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #2563eb;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  color: #9ca3af; /* Grey color */
+  margin-bottom: 20px;
+  animation: fadeIn 14s;
+}
+
+.get-started:hover {
+  background-color: #3b82f6;
+}
+
+/* Right Section */
+.right-section {
+  flex: 1;
+  text-align: right;
+}
+
+.robot-img {
+  width: 50%;
+  max-width: none; /* Remove the default max-width constraint */
+  height: auto;
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

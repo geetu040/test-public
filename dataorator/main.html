@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dataorator - Choose Database</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-logo">DataOrator</div>
+        <div class="navbar-menu">
+          <a href="home.html" class="navbar-link">Home</a>
+          <a href="sql.html" class="navbar-link">MySQL</a>
+          <a href="mongodb.html" class="navbar-link">MongoDB</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="choose-container">
+      <h1 class="choose-heading">Choose Your Database</h1>
+      <div class="options">
+        <div class="option-card" onclick="location.href='sql.html'">
+          <h2>SQL Database</h2>
+          <p>Manage your relational data Effectively.</p>
+        </div>
+        <div class="option-card" onclick="location.href='mongodb.html'">
+          <h2>MongoDB Database</h2>
+          <p>Handle your NoSQL data with flexibility and power.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
